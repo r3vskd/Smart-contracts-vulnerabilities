@@ -1,4 +1,9 @@
-/*In this contract, users can deposit ether 
+/*Reentrancy vulnerabilities happen when an exploiter repeatedly
+calls functions prior to the first invocation finishing. 
+Attackers using this bug can withdraw balances multiple times
+before their balance is set to 0.
+
+In this contract, users can deposit ether 
 into their account and then withdraw it later
 by calling the withdraw function. However, the 
 withdraw function is vulnerable to a reentrancy 
