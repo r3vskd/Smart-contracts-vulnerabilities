@@ -4,17 +4,17 @@ Some practical examples of the most frequent bugs that can be found in smart con
 
 # Some Theory
 
-## Reentrancy
+### Reentrancy
 
 
-## Frontrunning
+### Frontrunning
 
 
-## Underflow
+### Underflow
 
 
-## Overflow
+### Overflow
 
 
-## Incorrect Calculations
+### Incorrect Calculations
 
