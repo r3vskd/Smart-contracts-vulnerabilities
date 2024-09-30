@@ -19,7 +19,7 @@ vulnerable contract.*/
 repeated calls to their contract, which will cause 
 the vulnerable contract to repeatedly send ether to 
 the attacker's contract before the initial call has 
-completed, resulting in a loss of funds.*/
+completed,resulting in a loss of funds.*/
 /*////////////////////////////////////////////////////////////*/
 
 pragma solidity ^0.8.0;
